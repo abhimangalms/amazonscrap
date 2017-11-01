@@ -9,10 +9,9 @@ import scrapy
 
 
 class AmazonscrapItem(scrapy.Item):
-	
 	name = scrapy.Field()
-  	price = scrapy.Field()
-  	image = scrapy.Field()
+	price = scrapy.Field()
+	image = scrapy.Field()
 	description = scrapy.Field()
 	
 	
